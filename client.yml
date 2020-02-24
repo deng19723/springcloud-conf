@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    config:
+      profile: dev
+  application:
+    name: springcloud-conf-dev
+server:
+  port: 3001
+---
+spring:
+  cloud:
+    config:
+      profile: test
+  application:
+    name: springcloud-conf-test
+server:
+  port: 3002
