@@ -4,4 +4,4 @@ eureka:
   client:
     register-with-eureka: false
 server:
-  port: 8001
+  port: 7001
