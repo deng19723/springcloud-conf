@@ -1,7 +1,8 @@
-spring:
-  profiles: dev
+server:
+  port: 7002
 eureka:
   client:
+    fetch-registry: false
     register-with-eureka: false
-server:
-  port: 7001
+  instance:
+    hostname: localhost
